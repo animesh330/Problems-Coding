@@ -52,7 +52,7 @@ void mergeSort(int *arr , int s , int e){
 }
 int main(){
     int arr[] = {2,5,1,1,6,9};
-    // int n = 6;
+    int n = 6;
     mergeSort(arr , 0 , n-1);
     for (int i = 0; i < n; i++)
     {

@@ -1,4 +1,4 @@
-// ques : Given two arrays X and Y of positive integers, find the number of pairs such that xy > yx (raised to power of) where x is an element from X and y is an element from Y.
+// ques : Given two arrays X and Y of positive integers, find the number of pairs such that x^y > y^x (raised to power of) where x is an element from X and y is an element from Y.
 // link: https://practice.geeksforgeeks.org/problems/number-of-pairs-1587115620/1
 
 #include<bits/stdc++.h>

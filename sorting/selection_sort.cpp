@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 void selectionsort(int arr[] , int n){
-    
+    // Approach 1
     for(int i =0;i<n-1;i++){
         int min = i;
         for(int j = i+1;j<n;j++){
@@ -17,6 +17,18 @@ void selectionsort(int arr[] , int n){
         }
        
     }
+
+    // Approach 2
+
+    // for(int i =0;i<n-1;i++){
+    //     for(int j=i+1;j<n;j++){
+    //         if(arr[j]<arr[i]){
+    //             arr[j] = arr[j]^arr[i];
+    //             arr[i] = arr[j]^arr[i];
+    //             arr[j] = arr[j]^arr[i];
+    //         }
+    //     }
+    // }
     
 }
 int main(){
