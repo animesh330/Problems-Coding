@@ -1,4 +1,4 @@
-// or maxmim subarray sum
+// or maximum subarray sum
 #include<iostream>
 
 using namespace std;
