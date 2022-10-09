@@ -6,12 +6,9 @@ void rearrange(int* arr , int n){
     	int j = n-1;
     	vector<int>v;
     	while(i<=j){
-            // cout<<i<<"th loop"<<endl;
-            // cout<<"here value od i is "<<i<<endl;
-            // cout<<"here value od j is "<<j<<endl;
+            
     	    v.push_back(arr[j]);
-            // cout<<"value added from arr[j-i] is"<<arr[j]<<endl;
-            // cout<<"value added from arr[i] is"<<arr[i]<<endl;
+            
     	    v.push_back(arr[i]);
     	    i++;
     	    j--;
